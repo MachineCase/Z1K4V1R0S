@@ -10,6 +10,7 @@ serde_json (biblioteca para deserializar a resposta JSON das APIs)
 
 ## Como usar
 
+```bash
 # Clonar repositório
 git clone https://github.com/MachineCase/Z1K4V1R0S
 
@@ -24,6 +25,7 @@ Substitua "example.com" na linha 11 com o domínio para o qual você deseja obte
 cargo run
 
 O código fará chamadas para as APIs SecurityTrails e Shodan para obter os subdomínios do domínio especificado. A resposta das APIs será deserializada em structs específicas e os subdomínios serão imprimidos na tela.
+```
 
 ## Explicação do código
 
