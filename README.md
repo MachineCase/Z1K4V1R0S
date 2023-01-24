@@ -13,19 +13,20 @@ serde_json (biblioteca para deserializar a resposta JSON das APIs)
 ```bash
 # Clonar repositório
 git clone https://github.com/MachineCase/Z1K4V1R0S
-
+```
+```bash
 # Entre na pasta src
  cd src
+```
 
 Substitua "SUA_CHAVE_DA_API" na linha 10 com sua própria chave de API válida para acessar as APIs.
 
 Substitua "example.com" na linha 11 com o domínio para o qual você deseja obter os subdomínios.
-
+```bash
 # Compile e execute o código 
 cargo run
-
-O código fará chamadas para as APIs SecurityTrails e Shodan para obter os subdomínios do domínio especificado. A resposta das APIs será deserializada em structs específicas e os subdomínios serão imprimidos na tela.
 ```
+O código fará chamadas para as APIs SecurityTrails e Shodan para obter os subdomínios do domínio especificado. A resposta das APIs será deserializada em structs específicas e os subdomínios serão imprimidos na tela.
 
 ## Explicação do código
 
